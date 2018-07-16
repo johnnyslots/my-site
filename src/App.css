@@ -1,19 +1,30 @@
 .nav-container {
-  padding: 1%;
+  padding: 1% 1% 0 1%;
   background-color: #395C4E;
   display: flex;
   justify-content: space-between;
+
 }
 
 .nav-links-container {
-/*  display: flex;
-  flex-direction: row;
+  display: flex;
+/*  flex-direction: row;
   justify-content: flex-end;*/
+  justify-content: space-between;
+  height: 50px;
 
 }
 
 .nav-item {
-  margin: 0 4%;
+  padding: 1% 8% 0 0;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .header-initials {
@@ -23,7 +34,23 @@
   font-size: 70px;
   /*line-height: 44px;*/
   /*letter-spacing: 0;*/
-  /*font-family: "Shrikhand", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: "Shrikhand", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 0;
+}
+
+.intro-container {
+  display: flex;
+  margin: 2% 20%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.intro-image {
+  width: 280px;
+  height: 320px;
+  /*border-radius: 50%;
+  display: block;*/
+  margin-right: 5%;
 }
 
 .experience-container {
