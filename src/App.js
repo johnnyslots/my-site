@@ -8,7 +8,7 @@ import Experience from './Experience';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="app">
         <Navbar />
         <Intro />
         <Experience />
