@@ -62,7 +62,19 @@ h2 {
   background-color: #395C4E;
   padding: 2% 15% 0 15%;
   text-align: center;
+}
 
+.landing-container {
+  background-color: #395C4E;
+  display: flex;
+  justify-content: center;
+  padding: 10% 20%
+}
+
+.header-initials-landing {
+  font-size: 200px;
+  font-family: "Shrikhand", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  align-items: center;
 }
 
 
