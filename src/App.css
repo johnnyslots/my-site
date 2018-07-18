@@ -41,16 +41,20 @@ h2 {
 }
 
 .intro-container {
-  display: flex;
-  margin: 2% 15%;
-  flex-direction: row;
-  justify-content: space-around;
+  /*display: flex;*/
+  margin: 3% 15%;
+/*  flex-direction: row;
+  justify-content: space-around;*/
 }
 
 .intro-image {
-  width: 340px;
   height: 420px;
   margin-right: 5%;
+  float: left;
+}
+
+.intro-clearfix {
+  margin-bottom: 5%;
 }
 
 .intro-text {
@@ -58,9 +62,17 @@ h2 {
 }
 
 .experience-container {
-  background-color: #395C4E;
-  padding: 2% 15% 0 15%;
-  text-align: center;
+  background: linear-gradient(to right, #395C4E , #3f5C4E);
+  padding: 2% 15% 5% 15%;
+}
+
+.card-left {
+  margin: 3% 0 3% 30%;
+
+}
+
+.card-right {
+  margin: 3% 30% 3% 0;
 }
 
 .landing-container {
@@ -92,7 +104,7 @@ h2 {
 
 .arrow {
   text-align: center;
-  padding-bottom: 2%;
+  padding-bottom: 3%;
 }
 .bounce {
   -moz-animation: bounce 2s infinite;
@@ -110,8 +122,4 @@ h2 {
   60% {
     transform: translateY(-15px);
   }
-}
-
-.arrow-icon {
-  color: gray;
 }
