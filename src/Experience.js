@@ -29,10 +29,16 @@ const Experience = () => {
               <Card.Content>
                 <Image floated='right' size='mini' src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Uber_App_Icon.svg/1200px-Uber_App_Icon.svg.png' />
                 <Card.Header>Uber</Card.Header>
-                <Card.Meta>Regional Greenlight Program Specialist</Card.Meta>
+                <Card.Meta>Subregional Greenlight Program Specialist</Card.Meta>
                 <Card.Description>
                   - Led analytics and insights for all Greenlight Hubs in the region using SQL and data-driven experimentation, resulting in better tracking of customer satisfaction and increased NPS to a regional average of above 60 <br />
-                  - Standardized processes across the region, including consolidating Greenlights’ payments system, as well as aggregating and triaging product bugs and driver-partner feedback, further increasing customer satisfaction
+                  - Standardized processes across the region, including consolidating Greenlights’ payments system, as well as aggregating and triaging product bugs and driver-partner feedback, further increasing customer satisfaction <br /><br />
+                </Card.Description>
+                <Card.Meta>Greenlight Program Manager</Card.Meta>
+                <Card.Description>
+                  - Oversaw and managed 3 Greenlight Hubs across 3 boroughs, with a total staff of 60 employees serving approximately 5,000 driver-partners per week, and a budget totaling $300k per month <br />
+                  - Created and maintained a staffing model to identify inefficiencies in our scheduling, resulting in changes to our operating hours and minimized overtime for support representatives <br />
+                  - Created and maintained a staffing model to identify inefficiencies in our scheduling, resulting in changes to our operating hours and minimized overtime for support representatives <br /><br />
                 </Card.Description>
               </Card.Content>
             </Card>

@@ -53,8 +53,10 @@ h2 {
   float: left;
 }
 
-.intro-clearfix {
-  margin-bottom: 5%;
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .intro-text {
