@@ -6,7 +6,6 @@ h2 {
 
 .nav-container {
   padding: 2% 15% 0 15%;
-  background-color: #395C4E;
   display: flex;
   justify-content: space-between;
 }
@@ -20,8 +19,8 @@ h2 {
 
 .nav-item {
   padding: 1% 4% 0 4%;
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
   font-size: 18px;
   color: black;
   text-decoration: none;
@@ -36,7 +35,7 @@ h2 {
 
 .header-initials {
   border-top: 3px solid black;
-  font-size: 70px;
+  font-size: 40px;
   font-family: "Shrikhand", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 1%;
 }
@@ -62,7 +61,57 @@ h2 {
   background-color: #395C4E;
   padding: 2% 15% 0 15%;
   text-align: center;
+}
+
+.landing-container {
+  background: linear-gradient(to right, #395C4E , #3f5C4E);
+}
+
+.landing-main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 12% 20% 12% 20%;
+}
+
+.header-initials-landing {
+  font-size: 80px;
+  font-family: "Shrikhand", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 0;
 
 }
 
+.landing-subtitle {
+  font-weight: 400;
+  font-size: 30px;
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-top: 0
+}
 
+.arrow {
+  text-align: center;
+  padding-bottom: 2%;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.arrow-icon {
+  color: gray;
+}
