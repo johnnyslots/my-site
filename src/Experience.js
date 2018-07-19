@@ -62,7 +62,8 @@ export default class Experience extends Component {
 
     return (
       <div className="experience-container">
-        <h2>Experience</h2>
+        <h1 className="experience-header">Experience & Education</h1>
+        <h5 className="experience-subtitle">Click cards for more details</h5>
 
         {
           experienceDetails.map((el, i) => {

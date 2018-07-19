@@ -64,16 +64,29 @@ h2 {
   padding: 2% 15% 5% 15%;
 }
 
+.experience-header {
+  font-size: 32px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.experience-subtitle {
+  margin-top: .5em;
+  color: gray;
+  text-align: center;
+}
+
 .experience-card-container {
-  padding: 1%
+  padding: 1%;
+  background-color: gray;
 }
 
 .card-left {
-  margin: 3% 10% 3% 30%;
+  margin: 3% 10% 3% 25%;
 }
 
 .card-right {
-  margin: 3% 30% 3% 10%;
+  margin: 3% 25% 3% 10%;
 }
 
 .experience-more-details {
@@ -136,4 +149,8 @@ h2 {
   60% {
     transform: translateY(-15px);
   }
+}
+
+.projects-container {
+  padding: 2% 15% 5% 15%;
 }
