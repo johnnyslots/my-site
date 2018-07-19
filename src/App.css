@@ -78,15 +78,18 @@ h2 {
 
 .experience-card-container {
   padding: 1%;
-  background-color: gray;
-}
+  /*margin-left: 30%*/
 
-.card-left {
-  margin: 3% 10% 3% 25%;
 }
 
 .card-right {
-  margin: 3% 25% 3% 10%;
+  margin: 3% 0 3% 23%;
+}
+
+.experience-icon {
+  float: left;
+  margin-top: 2%;
+  margin-left: 4%;
 }
 
 .experience-more-details {

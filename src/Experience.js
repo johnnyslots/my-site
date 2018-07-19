@@ -10,35 +10,40 @@ const experienceDetails = [
     position: 'Software Engineering Teaching Fellow',
     description: `- Provide coaching and technical instruction to 7 students as their assigned teaching fellow \n - Support students in need of troubleshooting assistance and review of programming concepts during workshops \n - Lead technical and behavioral admissions interviews for prospective students`,
     imageURL: 'https://pbs.twimg.com/profile_images/694191024416112642/VtJUhbKk_400x400.png',
-    date: 'June 2018 - present'
+    date: 'June 2018 - present',
+    icon: 'code'
   },
   {
     company: 'Uber',
     position: 'Subregional Greenlight Program Specialist',
     description: '- Provide coaching and technical instruction to 7 students as their assigned teaching fellow \n - Support students in need of troubleshooting assistance and review of programming concepts during workshops \n - Lead technical and behavioral admissions interviews for prospective students',
     imageURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Uber_App_Icon.svg/1200px-Uber_App_Icon.svg.png',
-    date: 'Aug 2017 - Feb 2018'
+    date: 'Aug 2017 - Feb 2018',
+    icon: 'briefcase'
   },
   {
     company: 'Uber',
     position: 'Greenlight Program Manager',
     description: '- Provide coaching and technical instruction to 7 students as their assigned teaching fellow \n - Support students in need of troubleshooting assistance and review of programming concepts during workshops \n - Lead technical and behavioral admissions interviews for prospective students',
     imageURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Uber_App_Icon.svg/1200px-Uber_App_Icon.svg.png',
-    date: 'Sep 2015 - Aug 2017'
+    date: 'Sep 2015 - Aug 2017',
+    icon: 'briefcase'
   },
   {
     company: 'Uber',
     position: 'Operations Coordinator',
     description: '- Provide coaching and technical instruction to 7 students as their assigned teaching fellow \n - Support students in need of troubleshooting assistance and review of programming concepts during workshops \n - Lead technical and behavioral admissions interviews for prospective students',
     imageURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Uber_App_Icon.svg/1200px-Uber_App_Icon.svg.png',
-    date: 'Jun 2014 - Sep 2015'
+    date: 'Jun 2014 - Sep 2015',
+    icon: 'briefcase'
   },
   {
     company: 'SoundStreak',
     position: 'Customer Operations & Sales Engineer',
     description: '- Provide coaching and technical instruction to 7 students as their assigned teaching fellow \n - Support students in need of troubleshooting assistance and review of programming concepts during workshops \n - Lead technical and behavioral admissions interviews for prospective students',
     imageURL: 'http://cdn2.btrstatic.com/pics/showpics/large/268027_tj6KheHb.png',
-    date: 'Jan 2011 - Jun 2014'
+    date: 'Jan 2011 - Jun 2014',
+    icon: 'briefcase'
   }
 ]
 
@@ -67,14 +72,16 @@ export default class Experience extends Component {
 
         {
           experienceDetails.map((el, i) => {
-            let classNameSide = i % 2 ? 'card-right' : 'card-left'
             let cascadeLeft, cascadeRight
             if(i % 2) cascadeLeft = true
             else cascadeRight = true
 
             return (
-              <div className={classNameSide}>
-                <Fade cascade left={cascadeLeft} right={cascadeRight}>
+              <Fade cascade left={cascadeLeft} right={cascadeRight}>
+                <div className="experience-icon">
+                  <Icon name={el.icon} size="massive"></Icon>
+                </div>
+                <div className='card-right'>
                   <div className='experience-card-container'>
                     <Card fluid onClick={this.handleClick}>
                       <Card.Content>
@@ -94,8 +101,8 @@ export default class Experience extends Component {
                       </Card.Content>
                     </Card>
                   </div>
-                </Fade>
-              </div>
+                </div>
+              </Fade>
             )
           })
         }
