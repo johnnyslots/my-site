@@ -67,9 +67,14 @@ export default class Experience extends Component {
 
     return (
       <div className="experience-container">
-        <h1 className="experience-header">Experience & Education</h1>
-        <h5 className="experience-subtitle">Click cards for more details</h5>
-
+        <div className="experience-header-container">
+          <h1 className="experience-header">Experience</h1>
+          <h5 className="experience-subtitle">Click cards for more details</h5>
+          <img
+            src="https://www.freeiconspng.com/uploads/resume-icon-png-10.png"
+            className="experience-image">
+          </img>
+        </div>
         {
           experienceDetails.map((el, i) => {
             let cascadeLeft, cascadeRight
@@ -78,9 +83,6 @@ export default class Experience extends Component {
 
             return (
               <Fade cascade left={cascadeLeft} right={cascadeRight}>
-                <div className="experience-icon">
-                  <Icon name={el.icon} size="massive"></Icon>
-                </div>
                 <div className='card-right'>
                   <div className='experience-card-container'>
                     <Card fluid onClick={this.handleClick}>
