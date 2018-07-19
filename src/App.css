@@ -61,19 +61,28 @@ h2 {
 
 .experience-container {
   background: linear-gradient(to right, #395C4E , #3f5C4E);
-  padding: 2% 15% 5% 15%;
+  padding: 2% 15% 3% 15%;
+}
+
+.experience-header-container {
+  float: left;
 }
 
 .experience-header {
   font-size: 32px;
-  margin-bottom: 0;
-  text-align: center;
+  margin-bottom: .3em;
+  /*text-align: center;*/
+  border-bottom: 1px solid black;
 }
 
 .experience-subtitle {
   margin-top: .5em;
   color: gray;
-  text-align: center;
+  /*text-align: center;*/
+}
+
+.experience-image {
+  height: 60px;
 }
 
 .experience-card-container {
@@ -86,11 +95,11 @@ h2 {
   margin: 3% 0 3% 23%;
 }
 
-.experience-icon {
+/*.experience-icon {
   float: left;
   margin-top: 2%;
   margin-left: 4%;
-}
+}*/
 
 .experience-more-details {
   display: none;
