@@ -70,11 +70,14 @@ h2 {
 
 .card-left {
   margin: 3% 0 3% 30%;
-
 }
 
 .card-right {
   margin: 3% 30% 3% 0;
+}
+
+.experience-more-details {
+  display: none;
 }
 
 .landing-container {
