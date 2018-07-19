@@ -6,7 +6,7 @@ const Landing = () => (
   <div className="landing-container">
     <Navbar />
     <div className="landing-main-container">
-      <h3 className="header-initials-landing fa fa-arrow-down fa-2x">Yoni Slotwiner</h3>
+      <h3 className="header-name-landing fa fa-arrow-down fa-2x">Yoni Slotwiner</h3>
       <h5 className="landing-subtitle">Full Stack Web Developer</h5>
     </div>
     <div className="arrow bounce">
