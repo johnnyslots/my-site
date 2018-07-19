@@ -6,15 +6,14 @@ h2 {
 
 .nav-container {
   padding: 2% 15% 0 15%;
-  display: flex;
-  justify-content: space-between;
+  /*display: flex;
+  justify-content: space-between;*/
 }
 
-.nav-links-container {
+/*.nav-links-container {
   display: flex;
   justify-content: space-between;
   height: 2%;
-
 }
 
 .nav-item {
@@ -31,7 +30,7 @@ h2 {
   border-top: 1px solid black;
   text-decoration: none;
   color: black;
-}
+}*/
 
 .header-initials {
   border-top: 3px solid black;
@@ -41,10 +40,7 @@ h2 {
 }
 
 .intro-container {
-  /*display: flex;*/
   margin: 3% 15%;
-/*  flex-direction: row;
-  justify-content: space-around;*/
 }
 
 .intro-image {
@@ -68,13 +64,42 @@ h2 {
   padding: 2% 15% 5% 15%;
 }
 
-.card-left {
-  margin: 3% 0 3% 30%;
+.experience-header {
+  font-size: 32px;
+  margin-bottom: 0;
+  text-align: center;
+}
 
+.experience-subtitle {
+  margin-top: .5em;
+  color: gray;
+  text-align: center;
+}
+
+.experience-card-container {
+  padding: 1%;
+  background-color: gray;
+}
+
+.card-left {
+  margin: 3% 10% 3% 25%;
 }
 
 .card-right {
-  margin: 3% 30% 3% 0;
+  margin: 3% 25% 3% 10%;
+}
+
+.experience-more-details {
+  display: none;
+}
+
+.experience-description {
+  color: black;
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.display-linebreak {
+  white-space: pre-line;
 }
 
 .landing-container {
@@ -124,4 +149,8 @@ h2 {
   60% {
     transform: translateY(-15px);
   }
+}
+
+.projects-container {
+  padding: 2% 15% 5% 15%;
 }
