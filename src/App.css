@@ -33,7 +33,7 @@ h2 {
 }*/
 
 .header-initials {
-  border-top: 2px solid black;
+  border-top: 2px solid white;
   width: 6%;
   font-size: 40px;
   font-family: "Shrikhand", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -71,6 +71,7 @@ h2 {
 }
 
 .experience-header {
+  color: white;
   font-size: 32px;
   margin-bottom: .3em;
   border-bottom: 1px solid black;
@@ -140,11 +141,13 @@ h2 {
   font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   margin-top: 0;
+  color: white;
 }
 
 .arrow {
   text-align: center;
   padding-bottom: 3%;
+  color: #5a5a5a;
 }
 .bounce {
   -moz-animation: bounce 2s infinite;
@@ -202,7 +205,7 @@ h2 {
   /*padding: 1px;*/
   /*border: .6px solid black;*/
   border-radius: 2%;
-  height: 230px;
+  height: 380px;
 }
 
 .projects-visit {
@@ -211,9 +214,11 @@ h2 {
   /*margin-right: 1%;*/
   /*padding-right: 2%;*/
   transition: border 1s ease-out;
+  transition: font-size .5s ease-out;
 }
 .projects-visit:hover {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #59b2ea;
+  font-size: 20px;
 }
 
 .projects-links-border {
@@ -222,9 +227,25 @@ h2 {
   padding: 2%;
 }
 
+.projects-visit-link {
+  color: #59b2ea;
+}
+.projects-visit-link:hover {
+  color: #5a5a5a;
+  font-weight: 800
+}
+
 .projects-github {
   display: inline;
-  /*padding-left: 2%;*/
+  /*border-right: 1px solid black;*/
+  /*margin-right: 1%;*/
+  /*padding-right: 2%;*/
+  transition: border 1s ease-out;
+  transition: font-size .5s ease-out;
+}
+.projects-github:hover {
+  border-bottom: 1px solid #59b2ea;
+  font-size: 20px;
 }
 
 

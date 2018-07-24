@@ -42,22 +42,22 @@ export default class Experience extends Component {
               <Fade cascade left={cascadeLeft} right={cascadeRight}>
                 <div className='card-right'>
                   <div className='experience-card-container'>
-                    <Card fluid onClick={this.handleClick}>
-                      <Card.Content>
-                        <Image floated='right' size='mini' src={el.imageURL} />
-                        <Card.Header>{el.company}</Card.Header>
-                        <Card.Meta>{el.position}</Card.Meta>
-                        <div className={moreDetailsClass}>
-                          <Card.Description>
-                            <div className='display-linebreak experience-description'>
-                              {el.description}
-                            </div>
-                          </Card.Description>
-                        </div>
-                      </Card.Content>
-                      <Card.Content extra>
-                        {el.date}
-                      </Card.Content>
+                    <Card fluid onClick={this.handleClick} >
+                        <Card.Content>
+                          <Image floated='right' size='mini' src={el.imageURL} />
+                          <Card.Header>{el.company}</Card.Header>
+                          <Card.Meta>{el.position}</Card.Meta>
+                          <div className={moreDetailsClass}>
+                            <Card.Description>
+                              <div className='display-linebreak experience-description'>
+                                {el.description}
+                              </div>
+                            </Card.Description>
+                          </div>
+                        </Card.Content>
+                        <Card.Content extra>
+                          {el.date}
+                        </Card.Content>
                     </Card>
                   </div>
                 </div>
