@@ -34,7 +34,7 @@ h2 {
 
 .header-initials {
   border-top: 2px solid black;
-  /*width: 6%;*/
+  width: 6%;
   font-size: 40px;
   font-family: "Shrikhand", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 1%;
@@ -61,7 +61,8 @@ h2 {
 }
 
 .experience-container {
-  background: linear-gradient(to bottom, #395C4E , #3f6C4E);
+  /*background: linear-gradient(to bottom, #395C4E , #3f6C4E);*/
+  background: linear-gradient(to bottom, #52a7ea , #59b2ea);
   padding: 2% 15% 3% 15%;
 }
 
@@ -77,10 +78,10 @@ h2 {
 
 .experience-subtitle {
   margin-top: .5em;
-  color: gray;
+  color: #5a5a5a;
 }
 
-.experience-image {
+.experience-icon {
   height: 60px;
 }
 
@@ -106,7 +107,12 @@ h2 {
 }
 
 .landing-container {
-  background: linear-gradient(to bottom, #395C4E , #3f6C4E);
+  /*background: linear-gradient(to bottom, #395C4E , #3f6C4E);*/
+  background: linear-gradient(to bottom, #52a7ea , #59b2ea);
+
+  /*background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/B8FU8DFSipsctoeb/sunrise-over-mountains-nature-background-aerial-video-4k-sunset-sunshine-in-himalayas-nepal-sun-rises-on-clear-sky_rhp1dqgk__F0000.png');*/
+  /*background-repeat: no-repeat;
+  background-size: cover;*/
 }
 
 .landing-main-container {
@@ -125,8 +131,7 @@ h2 {
 }
 
 .header-name-landing:hover {
-  /*border: 1px solid white;*/
-  color: gray;
+  color: #5a5a5a;
 }
 
 .landing-subtitle {
@@ -160,5 +165,33 @@ h2 {
 }
 
 .projects-container {
-  padding: 2% 15% 5% 15%;
+  padding: 2% 15% 3% 15%;
+}
+
+.projects-header-container {
+  float: left;
+  margin-right: 3%;
+}
+
+.projects-header {
+  font-size: 32px;
+  margin-bottom: .1em;
+  border-bottom: 1px solid black;
+}
+
+.projects-icon {
+  height: 60px;
+}
+
+.projects-section-container {
+  display: flex;
+  flex-direction: row;
+  margin: 15% 5% 5% 5%;
+}
+
+.projects-image {
+  border: .6px solid black;
+  border-radius: 2%;
+  width: 420px;
+  height: 280px;
 }
