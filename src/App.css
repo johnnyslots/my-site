@@ -139,7 +139,7 @@ h2 {
   font-size: 30px;
   font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
-  margin-top: 0
+  margin-top: 0;
 }
 
 .arrow {
@@ -189,9 +189,42 @@ h2 {
   margin: 15% 5% 5% 5%;
 }
 
-.projects-image {
-  border: .6px solid black;
-  border-radius: 2%;
-  width: 420px;
-  height: 280px;
+.projects-image-container {
+  transition: opacity .3s ease-out;
+  opacity: 1;
 }
+
+.projects-image-container:hover {
+  opacity: 0;
+}
+
+.projects-image {
+  /*padding: 1px;*/
+  /*border: .6px solid black;*/
+  border-radius: 2%;
+  height: 230px;
+}
+
+.projects-visit {
+  display: inline;
+  /*border-right: 1px solid black;*/
+  /*margin-right: 1%;*/
+  /*padding-right: 2%;*/
+  transition: border 1s ease-out;
+}
+.projects-visit:hover {
+  border-bottom: 1px solid black;
+}
+
+.projects-links-border {
+  display: inline;
+  /*border-right: 1px solid black;*/
+  padding: 2%;
+}
+
+.projects-github {
+  display: inline;
+  /*padding-left: 2%;*/
+}
+
+
