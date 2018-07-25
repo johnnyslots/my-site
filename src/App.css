@@ -193,7 +193,13 @@ h2 {
 .projects-item-container {
   display: flex;
   flex-direction: row;
-  margin: 2% 5% 8% 5%;
+  margin: 3% 5% 5% 5%;
+  border-bottom: 1px solid black;
+  padding-bottom: 5%;
+}
+
+.no-border {
+  border: none;
 }
 
 .projects-image-container {
@@ -208,8 +214,13 @@ h2 {
 .projects-image {
   /*padding: 1px;*/
   /*border: .6px solid black;*/
-  border-radius: 2%;
+  /*border-radius: 2%;*/
   height: 320px;
+}
+
+.projects-image-laptop {
+  /*margin-left: 5%;*/
+  height: 280px;
 }
 
 .projects-visit {
