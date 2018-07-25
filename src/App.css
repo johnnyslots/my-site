@@ -61,7 +61,7 @@ h2 {
 }
 
 .experience-container {
-  /*background: linear-gradient(to bottom, #395C4E , #3f6C4E);*/
+  /*background: linear-gradient(to bottom, #52a7ea , #59b2ea);*/
   background: linear-gradient(to bottom, #52a7ea , #59b2ea);
   padding: 2% 15% 3% 15%;
 }
@@ -111,8 +111,8 @@ h2 {
   /*background: linear-gradient(to bottom, #395C4E , #3f6C4E);*/
   background: linear-gradient(to bottom, #52a7ea , #59b2ea);
 
-  /*background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/B8FU8DFSipsctoeb/sunrise-over-mountains-nature-background-aerial-video-4k-sunset-sunshine-in-himalayas-nepal-sun-rises-on-clear-sky_rhp1dqgk__F0000.png');*/
-  /*background-repeat: no-repeat;
+/*  background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/B8FU8DFSipsctoeb/sunrise-over-mountains-nature-background-aerial-video-4k-sunset-sunshine-in-himalayas-nepal-sun-rises-on-clear-sky_rhp1dqgk__F0000.png');
+  background-repeat: no-repeat;
   background-size: cover;*/
 }
 
@@ -186,10 +186,14 @@ h2 {
   height: 60px;
 }
 
-.projects-section-container {
+.projects-details-container {
+  margin-top: 15%;
+}
+
+.projects-item-container {
   display: flex;
   flex-direction: row;
-  margin: 15% 5% 5% 5%;
+  margin: 2% 5% 8% 5%;
 }
 
 .projects-image-container {
@@ -205,7 +209,7 @@ h2 {
   /*padding: 1px;*/
   /*border: .6px solid black;*/
   border-radius: 2%;
-  height: 380px;
+  height: 320px;
 }
 
 .projects-visit {

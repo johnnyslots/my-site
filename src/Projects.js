@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
-import { Image, Reveal, Icon } from 'semantic-ui-react'
+import { Image, Reveal, Icon } from 'semantic-ui-react';
 
 const Projects = () => {
   return (
     <div className="projects-container">
-        <div className="projects-header-container">
-          <h1 className="projects-header">Projects</h1>
-          <img
-            src="https://www.freeiconspng.com/uploads/black-iscreen-computer-icons--free-download-6.jpg"
-            className="projects-icon">
-          </img>
-        </div>
-        <div className='projects-section-container'>
+      <div className="projects-header-container">
+        <h1 className="projects-header">Projects</h1>
+        <img
+          src="https://www.freeiconspng.com/uploads/black-iscreen-computer-icons--free-download-6.jpg"
+          className="projects-icon">
+        </img>
+      </div>
+      <div className='projects-details-container'>
+        <div className='projects-item-container'>
           <div>
             <h2>Code Bono</h2>
             <p>Code Bono is a platform that connects nonprofit organizations with software developers looking to contribute their skills through pro bono work.</p>
@@ -25,7 +26,7 @@ const Projects = () => {
             <img src={window.location.origin + '/assets/code-bono-mac.png'} className='projects-image'></img>
           </div>
         </div>
-        <div className='projects-section-container'>
+        <div className='projects-item-container'>
           <div className='projects-image-container'>
             <img src={window.location.origin + '/assets/checkit-iphone.png'} className='projects-image'></img>
           </div>
@@ -39,6 +40,21 @@ const Projects = () => {
             <h4 className='projects-github'><a className='projects-visit-link' href='https://expo.io/@yonislots/checkit-app'>GITHUB</a></h4>
           </div>
         </div>
+        <div className='projects-item-container'>
+          <div>
+            <h2>D&D Wine and Liquor</h2>
+            <p>A mock e-commerce site that sells a selection of wine and liquor.</p>
+            <h4 className='projects-visit'><a className='projects-visit-link' href='https://expo.io/@yonislots/checkit-app'>VISIT</a></h4>
+            <div className='projects-links-border'>
+              <Icon name='sitemap' size='small'></Icon>
+            </div>
+            <h4 className='projects-github'><a className='projects-visit-link' href='https://expo.io/@yonislots/checkit-app'>GITHUB</a></h4>
+          </div>
+          <div className='projects-image-container'>
+            <img src={window.location.origin + '/assets/checkit-iphone.png'} className='projects-image'></img>
+          </div>
+        </div>
+      </div>
     </div>
 
   )
