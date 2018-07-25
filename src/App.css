@@ -6,8 +6,20 @@ h2 {
 
 .nav-container {
   padding: 2% 15% 0 15%;
-  /*display: flex;
-  justify-content: space-between;*/
+  display: flex;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.nav-link {
+  height: 40px;
+}
+
+.middle-nav-link {
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 /*.nav-links-container {
@@ -219,7 +231,6 @@ h2 {
 }
 
 .projects-image-laptop {
-  /*margin-left: 5%;*/
   height: 280px;
 }
 

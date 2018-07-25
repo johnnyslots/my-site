@@ -22,14 +22,32 @@ const Projects = () => {
             </div>
             <h4 className='projects-github'><a target="_blank" className='projects-visit-link' href='https://github.com/Code-Bono/code-bono'>GITHUB</a></h4>
           </div>
-          <div className='projects-image-container'>
-            <img src={window.location.origin + '/assets/code-bono-mac.png'} className='projects-image'></img>
-          </div>
+          <Reveal animated='small fade'>
+            <Reveal.Content visible>
+              <div className='projects-image-container'>
+                <img src={window.location.origin + '/assets/code-bono-mac.png'} className='projects-image'></img>
+              </div>
+            </Reveal.Content>
+            <Reveal.Content hidden>
+              <div className='projects-image-icons-container'>
+                <img src={window.location.origin + '/assets/code-bono-icons.png'} className='projects-image'></img>
+              </div>
+            </Reveal.Content>
+          </Reveal>
         </div>
         <div className='projects-item-container'>
-          <div className='projects-image-container'>
-            <img src={window.location.origin + '/assets/checkit-iphone.png'} className='projects-image'></img>
-          </div>
+          <Reveal animated='small fade'>
+            <Reveal.Content visible>
+              <div className='projects-image-container'>
+                <img src={window.location.origin + '/assets/checkit-iphone.png'} className='projects-image'></img>
+              </div>
+            </Reveal.Content>
+            <Reveal.Content hidden>
+              <div className='projects-image-icons-container'>
+                <img src={window.location.origin + '/assets/checkit-icons.png'} className='projects-image'></img>
+              </div>
+            </Reveal.Content>
+          </Reveal>
           <div>
             <h2>CheckIt</h2>
             <p>A mobile app that allows you to send and receive recommendations for content such as books, movies, podcasts, and more. You can keep track of who recommended what and when, manage your lists, and get real-time notifications for new recommendation.</p>
@@ -50,9 +68,18 @@ const Projects = () => {
             </div>
             <h4 className='projects-github'><a target="_blank" className='projects-visit-link' href='https://github.com/dd-grace-shopper/dd-grace-shopper'>GITHUB</a></h4>
           </div>
-          <div className='projects-image-container'>
-            <img src={window.location.origin + '/assets/dd-wine.png'} className='projects-image-laptop'></img>
-          </div>
+          <Reveal animated='small fade'>
+            <Reveal.Content visible>
+              <div className='projects-image-container'>
+                <img src={window.location.origin + '/assets/dd-wine.png'} className='projects-image-laptop'></img>
+              </div>
+            </Reveal.Content>
+            <Reveal.Content hidden>
+              <div className='projects-image-icons-container'>
+                <img src={window.location.origin + '/assets/dd-wine-icons.png'} className='projects-image-laptop'></img>
+              </div>
+            </Reveal.Content>
+          </Reveal>
         </div>
       </div>
     </div>
@@ -63,13 +90,3 @@ const Projects = () => {
 export default Projects;
 
 
-
-
-          // <Reveal animated='small fade'>
-          //   <Reveal.Content visible>
-          //     <Image src={window.location.origin + '/assets/code-bono.png'} size='large' />
-          //   </Reveal.Content>
-          //   <Reveal.Content hidden>
-          //     <img src='https://ugross.gallerycdn.vsassets.io/extensions/ugross/vscode-react-snippets/1.3.0/1519481679046/Microsoft.VisualStudio.Services.Icons.Default'></img>
-          //   </Reveal.Content>
-          // </Reveal>
