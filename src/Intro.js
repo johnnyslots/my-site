@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Icon } from 'semantic-ui-react';
 
 const Intro = () => (
   <div className="intro-container clearfix">
-      <img src={window.location.origin + '/assets/F917B03B-6403-42C8-9639-D10F602B6643.JPG'} className="intro-image"></img>
+      <img alt='yoni slotwiner' src={window.location.origin + '/assets/F917B03B-6403-42C8-9639-D10F602B6643.JPG'} className="intro-image"></img>
     <div>
       <h2>Hey, I'm Yoni Slotwiner</h2>
       <p className="intro-text">I'm a software developer passionate about the intersection of product, operations, and customer service. I'm particularly interested in developing technology that improves people's lives.</p>

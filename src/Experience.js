@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { Card, Icon } from 'semantic-ui-react'
-import { Image, Reveal, Button, Item } from 'semantic-ui-react'
+import { Card, Image } from 'semantic-ui-react'
 import Fade from 'react-reveal/Fade';
-import Collapsible from 'react-collapsible';
 import { experienceDetails } from './details'
 
 export default class Experience extends Component {
@@ -28,7 +26,8 @@ export default class Experience extends Component {
           <h1 className="experience-header">Experience</h1>
           <h5 className="experience-subtitle">Click cards for more details</h5>
           <img
-            src="https://www.freeiconspng.com/uploads/resume-icon-png-10.png"
+            alt=''
+            src={window.location.origin + '/assets/resume-icon.png'}
             className="experience-icon">
           </img>
         </div>
@@ -39,7 +38,7 @@ export default class Experience extends Component {
             else cascadeRight = true
 
             return (
-              <Fade cascade left={cascadeLeft} right={cascadeRight}>
+              <Fade key={i} cascade left={cascadeLeft} right={cascadeRight}>
                 <div className='card-right'>
                   <div className='experience-card-container'>
                     <Card fluid onClick={this.handleClick} >
