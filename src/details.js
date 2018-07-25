@@ -35,5 +35,12 @@ export const experienceDetails = [
     description: '- Managed all aspects of customer and technical support; owned communications with customers \n - Conducted demos of SoundStreak’s software for potential customers, including executives from independent studios, NBC, Viacom, CBS, WWE, and more \n - Produced, recorded, and edited several tutorial videos for the website; represented SoundStreak on East-West Audio Body Shop, a leading radio show in the voice-over industry',
     imageURL: 'http://cdn2.btrstatic.com/pics/showpics/large/268027_tj6KheHb.png',
     date: 'Jan 2011 - Jun 2014'
+  },
+  {
+    'company': 'Hunter College',
+    'position': 'Bachelor of Arts, History',
+    'description': '- 3.9 GPA \n - Dean\'s List \n - Golden Key International Honour Society',
+    imageURL: 'https://user-content.givegab.com/uploads/group/logo/437316/f240b6ea84cf67ec6781ece21c38ddd338a33336.png',
+    date: '2008 - 2012'
   }
 ]
