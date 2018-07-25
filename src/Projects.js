@@ -58,7 +58,7 @@ const Projects = () => {
             <h4 className='projects-github'><a target="_blank" className='projects-visit-link' href='https://github.com/johnnyslots/checkit-app'>GITHUB</a></h4>
           </div>
         </div>
-        <div className=' projects-item-container no-border'>
+        <div className='projects-item-container projects-no-border'>
           <div>
             <h2>D&D Wine and Liquor</h2>
             <p>A mock e-commerce site that sells a selection of wine and liquor. This project also incorporates the Stripe API for a fully-functioning check-out experience.</p>
