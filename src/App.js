@@ -7,6 +7,7 @@ import Navbar from './Navbar';
 import Intro from './Intro';
 import Experience from './Experience';
 import Projects from './Projects';
+import OtherInterests from './OtherInterests';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <Intro />
         <Experience />
         <Projects />
+        <OtherInterests />
       </div>
     );
   }
