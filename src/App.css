@@ -331,7 +331,15 @@ h2 {
 }
 
 @media screen and (max-width: 600px) {
-  .header-name-landing {
-    font-size: 30px;
-  }
+  [class*='nav-container'] {padding: 6%}
+  [class*='header-initials'] {width: 20%;}
+  [class*='middle-nav-link'] {padding-left: 10px; padding-right: 10px}
+  [class*='landing-main-container'] {padding: 5%; margin: 40% 0 50% 0}
+  [class*='header-name-landing'] {font-size: 38px}
+  [class*='landing-subtitle'] {font-size: 26px; letter-spacing: 2px}
+  [class*='intro-container'] {margin: 6%}
+  [class*='intro-image'] {margin: 0 15px 0 0; height: 200px;}
+  [class*='intro-text-header'] {font-size: 18px; margin-bottom: 6px;}
+  [class*='intro-text'] {font-size: 14px}
+  [class*='projects-image'] {height: 20px}
 }
