@@ -11,23 +11,9 @@ export const experienceDetails = [
   {
     company: 'Uber',
     position: 'Subregional Greenlight Program Specialist',
-    description: '• Provide coaching and technical instruction to 7 students as their assigned teaching fellow \n • Support students in need of troubleshooting assistance and review of programming concepts during workshops \n • Lead technical and behavioral admissions interviews for prospective students',
+    description: '• Led analytics and insights for all Greenlight Hubs in the region using SQL and data-driven experimentation, resulting in better tracking of customer satisfaction and increased NPS to a regional average of above 60 \n • Standardized processes across the region, including consolidating Greenlights’ payments system, as well as aggregating and triaging product bugs and driver-partner feedback, further increasing customer satisfaction \n\n Greenlight Program Manager (Sep 2015 - Aug 2017) \n • Oversaw and managed 3 Greenlight Hubs across 3 boroughs, with a total staff of 60 employees serving approximately 5,000 driver-partners per week, and a budget totaling $300k per month \n • Created and maintained a staffing model to identify inefficiencies in our scheduling, resulting in changes to our operating hours and minimized overtime for support representatives \n • Developed and cultivated a partnership with Sprint; rented space in Greenlight Hubs to Sprint, offsetting costs by $5,000 per month, and launched 3 “Sprint Spots” in stores where Uber customers received support \n\n Greenlight Supervisor (Jun 2014 - Sep 2015) \n • Supported the daily operations through operational oversight and analysis \n • Managed scheduling, attendance, and general administration of support representatives \n • Trained and mentored support representatives to strengthen quality and efficiency metrics',
     imageURL: window.location.origin + '/assets/uber-icon.png',
-    date: 'Aug 2017 - Feb 2018'
-  },
-  {
-    company: 'Uber',
-    position: 'Greenlight Program Manager',
-    description: '• Oversaw and managed 3 Greenlight Hubs across 3 boroughs, with a total staff of 60 employees serving approximately 5,000 driver-partners per week, and a budget totaling $300k per month \n • Created and maintained a staffing model to identify inefficiencies in our scheduling, resulting in changes to our operating hours and minimized overtime for support representatives \n • Developed and cultivated a partnership with Sprint; rented space in Greenlight Hubs to Sprint, offsetting costs by $5,000 per month, and launched 3 “Sprint Spots” in stores where Uber customers received support',
-    imageURL: window.location.origin + '/assets/uber-icon.png',
-    date: 'Sep 2015 - Aug 2017'
-  },
-  {
-    company: 'Uber',
-    position: 'Operations Coordinator',
-    description: '• Supported the daily operations through operational oversight and analysis \n • Managed scheduling, attendance, and general administration of support representatives \n • Trained and mentored support representatives to strengthen quality and efficiency metrics',
-    imageURL: window.location.origin + '/assets/uber-icon.png',
-    date: 'Jun 2014 - Sep 2015'
+    date: 'Jun 2014 - Feb 2018'
   },
   {
     company: 'SoundStreak',

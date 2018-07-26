@@ -341,5 +341,12 @@ h2 {
   [class*='intro-image'] {margin: 0 15px 0 0; height: 200px;}
   [class*='intro-text-header'] {font-size: 18px; margin-bottom: 6px;}
   [class*='intro-text'] {font-size: 14px}
+  [class*='experience-container'] {padding: 6%}
+  [class*='experience-header-container'] {margin-bottom: 10%}
+  [class*='experience-card-container'] {width: 100%}
+  [class*='card-right'] {margin: 3%}
   [class*='projects-image'] {height: 20px}
 }
+/*.card-right {
+  margin: 3% 0 0 23%;
+}*/
