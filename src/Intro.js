@@ -3,7 +3,7 @@ import { Icon } from 'semantic-ui-react';
 
 const Intro = () => (
   <div className="intro-container clearfix">
-      <img alt='yoni slotwiner' src={window.location.origin + '/assets/F917B03B-6403-42C8-9639-D10F602B6643.JPG'} className="intro-image"></img>
+      <img alt='yoni slotwiner' src={window.location.origin + '/assets/58C6415E-AF54-401E-9CF7-BDAD67F92902.JPG'} className="intro-image"></img>
     <div>
       <h2>Hey, I'm Yoni Slotwiner</h2>
       <p className="intro-text">I'm a software developer passionate about the intersection of product, operations, and customer service. I'm particularly interested in developing technology that improves people's lives.</p>

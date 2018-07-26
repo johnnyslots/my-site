@@ -1,5 +1,7 @@
 /***** MAIN *****/
 
+
+
 p,
 h1,
 h2 {
@@ -139,6 +141,7 @@ h2 {
 }
 
 .landing-subtitle {
+  letter-spacing: 5px;
   font-weight: 400;
   font-size: 30px;
   font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -325,4 +328,10 @@ h2 {
 
 .projects-no-border {
   border: none;
+}
+
+@media screen and (max-width: 600px) {
+  .header-name-landing {
+    font-size: 30px;
+  }
 }

@@ -3,8 +3,8 @@
 export const experienceDetails = [
   {
     company: 'Fullstack Academy of Code',
-    position: 'Software Engineering Teaching Fellow',
-    description: `• Provide coaching and technical instruction to 7 students as their assigned teaching fellow \n • Support students in need of troubleshooting assistance and review of programming concepts during workshops \n • Lead technical and behavioral admissions interviews for prospective students`,
+    position: 'Teaching Fellow / Full Stack Software Engineer',
+    description: `• Work in an engineering team for maintenance and product enhancement of internal website, LearnDot \n • Provide coaching and technical instruction to 7 students as their assigned teaching fellow \n • Support students in need of troubleshooting assistance and review of programming concepts during workshops \n • Administer technical interviews for prospective students 2 times weekly, in Javascript, Ruby, and Python`,
     imageURL: window.location.origin + '/assets/fullstack-icon.png',
     date: 'June 2018 - present'
   },
