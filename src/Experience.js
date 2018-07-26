@@ -44,7 +44,7 @@ export default class Experience extends Component {
                     <Card fluid onClick={this.handleClick} >
                         <Card.Content>
                           <Image floated='right' size='mini' src={el.imageURL} />
-                          <Card.Header>{el.company}</Card.Header>
+                          <Card.Header className='experience-card-header'>{el.company}</Card.Header>
                           <Card.Meta>{el.position}</Card.Meta>
                           <div className={moreDetailsClass}>
                             <Card.Description>
