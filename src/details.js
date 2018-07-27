@@ -1,5 +1,3 @@
-
-
 export const experienceDetails = [
   {
     company: 'Fullstack Academy of Code',
