@@ -328,29 +328,41 @@ h2 {
   border: none;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 320px) {
   [class*='ScrollUpButton'] {display: none}
   [class*='nav-container'] {padding: 6%; position: static}
-  [class*='middle-nav-link'] {padding-left: 20px; padding-right: 20px}
+  [class*='middle-nav-link'] {padding-left: 10px; padding-right: 10px}
   [class*='landing-main-container'] {padding: 5%; margin: 25% 0 35% 0}
-  [class*='header-name-landing'] {font-size: 56px}
-  [class*='landing-subtitle'] {font-size: 26px; letter-spacing: 2px}
+  [class*='header-name-landing'] {font-size: 32px}
+  [class*='landing-subtitle'] {font-size: 22px; letter-spacing: 2px}
   [class*='intro-container'] {margin: 6%}
-  [class*='intro-image'] {margin: 0 15px 0 0; height: 360px;}
-  [class*='header-intro'] {font-size: 26px; margin-bottom: 12px;}
-  [class*='intro-text'] {font-size: 22px}
+  [class*='intro-image'] {margin: 0 15px 0 0; height: 200px;}
+  [class*='header-intro'] {font-size: 16px; margin-bottom: 6px;}
+  [class*='intro-text'] {font-size: 14px}
   [class*='experience-container'] {padding: 6%}
-  [class*='experience-header-container'] {margin-bottom: 5%}
+  [class*='experience-header'] {font-size: 30px; border: none;}
+  [class*='experience-subtitle'] {font-size: 12px;}
+  [class*='experience-icon'] {height: 40px}
+  [class*='experience-header-container'] {margin-bottom: 10%}
   [class*='card-right'] {margin: 2% 0}
   [class*='projects-container'] {padding: 6%; padding-bottom: 0}
-  [class*='projects-image'] {height: 150px}
-  [class*='projects-details-container'] {margin-top: 22%}
+  [class*='projects-header'] {font-size: 30px; border: none;}
+  [class*='projects-icon'] {height: 40px}
+  [class*='projects-image'] {height: 80px}
+  [class*='projects-details-container'] {margin-top: 35%}
+  [class*='projects-item-container'] {display: static; margin: 10% 0; padding-bottom: 10%}
+  [class*='projects-item-header'] {font-size: 18px}
+  [class*='projects-image-container'] {margin-top: 45px}
+  [class*='projects-image-icons-container'] {margin-top: 45px}
   [class*='other-interests-container'] {padding: 6%}
+  [class*='other-interests-item-container'] {margin-top: 8%}
+  [class*='other-interests-image'] {height: 60px;}
+  [class*='other-interests-item-name'] {font-size: 12px; margin-top: 10px}
   [class*='other-interests-item-middle'] {margin-left: 35px; margin-right: 35px}
   [class*='footer-container'] {padding: 6%; position: static}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 321px) and (max-width: 767px) {
   [class*='ScrollUpButton'] {display: none}
   [class*='nav-container'] {padding: 6%; position: static}
   [class*='middle-nav-link'] {padding-left: 10px; padding-right: 10px}
@@ -383,3 +395,71 @@ h2 {
   [class*='other-interests-item-middle'] {margin-left: 35px; margin-right: 35px}
   [class*='footer-container'] {padding: 6%; position: static}
 }
+
+@media screen and (min-width: 768px) and (max-width: 1054px) {
+  [class*='ScrollUpButton'] {display: none}
+  [class*='nav-container'] {padding: 6%; position: static}
+  [class*='middle-nav-link'] {padding-left: 20px; padding-right: 20px}
+  [class*='landing-main-container'] {padding: 5%; margin: 15% 0 25% 0}
+  [class*='header-name-landing'] {font-size: 56px}
+  [class*='landing-subtitle'] {font-size: 26px; letter-spacing: 2px}
+  [class*='intro-container'] {margin: 6%}
+  [class*='intro-image'] {margin: 0 15px 0 0; height: 360px;}
+  [class*='header-intro'] {font-size: 26px; margin-bottom: 12px;}
+  [class*='intro-text'] {font-size: 22px}
+  [class*='experience-container'] {padding: 6%}
+  [class*='experience-header-container'] {margin-bottom: 5%}
+  [class*='card-right'] {margin: 2% 0}
+  [class*='projects-container'] {padding: 6%; padding-bottom: 0}
+  [class*='projects-image'] {height: 150px}
+  [class*='projects-details-container'] {margin-top: 22%}
+  [class*='other-interests-container'] {padding: 6%}
+  [class*='other-interests-item-middle'] {margin-left: 35px; margin-right: 35px}
+  [class*='footer-container'] {padding: 6%; position: static}
+}
+
+@media (min-width: 640px) and (max-width: 1024px) and (orientation: landscape) {
+  [class*='ScrollUpButton'] {display: none}
+  [class*='nav-container'] {padding: 6%; position: static}
+  [class*='middle-nav-link'] {padding-left: 20px; padding-right: 20px}
+  [class*='landing-main-container'] {padding: 0 0 5% 0; margin: 0}
+  [class*='header-name-landing'] {font-size: 56px}
+  [class*='landing-subtitle'] {font-size: 26px; letter-spacing: 2px; margin-bottom: 2%}
+  [class*='intro-container'] {margin: 6%}
+  [class*='intro-image'] {margin: 0 15px 0 0; height: 360px;}
+  [class*='header-intro'] {font-size: 26px; margin-bottom: 12px;}
+  [class*='intro-text'] {font-size: 22px}
+  [class*='experience-container'] {padding: 6%}
+  [class*='experience-header-container'] {margin-bottom: 5%}
+  [class*='card-right'] {margin: 2% 0}
+  [class*='projects-container'] {padding: 6%; padding-bottom: 0}
+  [class*='projects-image'] {height: 150px}
+  [class*='projects-details-container'] {margin-top: 22%}
+  [class*='other-interests-container'] {padding: 6%}
+  [class*='other-interests-item-middle'] {margin-left: 35px; margin-right: 35px}
+  [class*='footer-container'] {padding: 6%; position: static}
+}
+
+@media (min-width: 300px) and (max-width: 639px) and (orientation: landscape) {
+  [class*='ScrollUpButton'] {display: none}
+  [class*='nav-container'] {padding: 6%; position: static}
+  [class*='middle-nav-link'] {padding-left: 20px; padding-right: 20px}
+  [class*='landing-main-container'] {padding: 0 0 5% 0; margin: 0}
+  [class*='header-name-landing'] {font-size: 56px}
+  [class*='landing-subtitle'] {font-size: 26px; letter-spacing: 2px; margin-bottom: 2%}
+  [class*='intro-container'] {margin: 6%}
+  [class*='intro-image'] {margin: 0 15px 0 0; height: 360px;}
+  [class*='header-intro'] {font-size: 26px; margin-bottom: 12px;}
+  [class*='intro-text'] {font-size: 22px}
+  [class*='experience-container'] {padding: 6%}
+  [class*='experience-header-container'] {margin-bottom: 5%}
+  [class*='card-right'] {margin: 2% 0}
+  [class*='projects-container'] {padding: 6%; padding-bottom: 0}
+  [class*='projects-image'] {height: 150px}
+  [class*='projects-details-container'] {margin-top: 22%}
+  [class*='other-interests-container'] {padding: 6%}
+  [class*='other-interests-item-middle'] {margin-left: 35px; margin-right: 35px}
+  [class*='footer-container'] {padding: 6%; position: static}
+}
+
+
