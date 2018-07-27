@@ -2,6 +2,9 @@
   "name": "yoni-slotwiner-site",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "10.6.0"
+  },
   "dependencies": {
     "react": "^16.4.1",
     "react-collapsible": "^2.2.0",
