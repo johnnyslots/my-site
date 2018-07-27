@@ -5,7 +5,7 @@
   "engines": {
     "node": "10.6.0"
   },
-  "homepage" : "https://git.heroku.com/yoni-slotwiner-site.git",
+  "homepage": "https://git.heroku.com/yoni-slotwiner-site.git",
   "dependencies": {
     "react": "^16.4.1",
     "react-collapsible": "^2.2.0",
@@ -13,8 +13,6 @@
     "react-reveal": "^1.2.2",
     "react-scripts": "1.1.4",
     "react-scroll-up-button": "^1.6.0",
-    "semantic-ui": "^2.3.3",
-    "semantic-ui-css": "^2.3.3",
     "semantic-ui-react": "^0.82.0"
   },
   "scripts": {
