@@ -36,17 +36,7 @@ const Projects = () => {
           </Reveal>
         </div>
         <div className='projects-item-container'>
-
-          <div>
-            <h2 className='projects-item-header'>CheckIt</h2>
-            <p>A mobile app that allows you to send and receive recommendations for content such as books, movies, podcasts, and more. You can keep track of who recommended what and when, manage your lists, and get real-time notifications for new recommendation.</p>
-            <h4 className='projects-visit'><a rel="noopener noreferrer" target="_blank" className='projects-visit-link' href='https://expo.io/@yonislots/checkit-app'>VISIT</a></h4>
-            <div className='projects-links-border'>
-              <Icon name='sitemap' size='small'></Icon>
-            </div>
-            <h4 className='projects-github'><a rel="noopener noreferrer" target="_blank" className='projects-visit-link' href='https://github.com/johnnyslots/checkit-app'>GITHUB</a></h4>
-          </div>
-         <Reveal animated='small fade'>
+          <Reveal animated='small fade'>
             <Reveal.Content visible>
               <div className='projects-image-container'>
                 <img alt='checkit app' src={window.location.origin + '/assets/checkit-iphone.png'} className='projects-image'></img>
@@ -58,6 +48,15 @@ const Projects = () => {
               </div>
             </Reveal.Content>
           </Reveal>
+          <div>
+            <h2 className='projects-item-header'>CheckIt</h2>
+            <p>A mobile app that allows you to send and receive recommendations for content such as books, movies, podcasts, and more. You can keep track of who recommended what and when, manage your lists, and get real-time notifications for new recommendation.</p>
+            <h4 className='projects-visit'><a rel="noopener noreferrer" target="_blank" className='projects-visit-link' href='https://expo.io/@yonislots/checkit-app'>VISIT</a></h4>
+            <div className='projects-links-border'>
+              <Icon name='sitemap' size='small'></Icon>
+            </div>
+            <h4 className='projects-github'><a rel="noopener noreferrer" target="_blank" className='projects-visit-link' href='https://github.com/johnnyslots/checkit-app'>GITHUB</a></h4>
+          </div>
         </div>
         <div className='projects-item-container projects-no-border'>
           <div>

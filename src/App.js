@@ -13,7 +13,9 @@ class App extends Component {
     return (
       <div className="app">
         <Landing />
-        <ScrollUpButton />
+        <div className='ScrollUpButton'>
+          <ScrollUpButton />
+        </div>
         <Intro />
         <Experience />
         <Projects />
