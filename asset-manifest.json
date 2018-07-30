@@ -1,6 +1,23 @@
 {
   "main.css": "static/css/main.41367fd5.css",
   "main.css.map": "static/css/main.41367fd5.css.map",
-  "main.js": "static/js/main.aecacc1f.js",
-  "main.js.map": "static/js/main.aecacc1f.js.map"
+  "main.js": "static/js/main.087138df.js",
+  "main.js.map": "static/js/main.087138df.js.map",
+  "static/media/checkit-icons.png": "static/media/checkit-icons.40f6e6a5.png",
+  "static/media/checkit-iphone.png": "static/media/checkit-iphone.33c485c6.png",
+  "static/media/code-bono-icons.png": "static/media/code-bono-icons.43db8ed4.png",
+  "static/media/code-bono-mac.png": "static/media/code-bono-mac.1b4d5e19.png",
+  "static/media/computer-icon.jpg": "static/media/computer-icon.9aa146a3.jpg",
+  "static/media/dd-wine-icons.png": "static/media/dd-wine-icons.811894e9.png",
+  "static/media/dd-wine.png": "static/media/dd-wine.5e73045f.png",
+  "static/media/fullstack-icon.png": "static/media/fullstack-icon.74d7dd8e.png",
+  "static/media/github-icon.png": "static/media/github-icon.957c4dd9.png",
+  "static/media/headshot.JPG": "static/media/headshot.88797b4e.JPG",
+  "static/media/hunter-college-icon.png": "static/media/hunter-college-icon.757d41b5.png",
+  "static/media/linkedin-icon.png": "static/media/linkedin-icon.94393125.png",
+  "static/media/mail-icon.png": "static/media/mail-icon.4f73a35f.png",
+  "static/media/martial-arts-icon.png": "static/media/martial-arts-icon.ff72faba.png",
+  "static/media/musician-icon.png": "static/media/musician-icon.41fb04a3.png",
+  "static/media/travel-icon.png": "static/media/travel-icon.6729e61b.png",
+  "static/media/uber-icon.png": "static/media/uber-icon.11ca9ec4.png"
 }
