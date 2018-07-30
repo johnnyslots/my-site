@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Card, Image } from 'semantic-ui-react'
 import Fade from 'react-reveal/Fade';
-import { experienceDetails } from './details'
+import { experienceDetails } from './details';
+import resumeIcon from './images/resume-icon.png';
 
 export default class Experience extends Component {
   constructor() {
@@ -27,7 +28,7 @@ export default class Experience extends Component {
           <h5 className="experience-subtitle">Click cards for more details</h5>
           <img
             alt=''
-            src={window.location.origin + '/assets/resume-icon.png'}
+            src={resumeIcon}
             className="experience-icon">
           </img>
         </div>

@@ -1,4 +1,7 @@
 import React from 'react';
+import musicianIcon from './images/musician-icon.png';
+import martialArtsIcon from './images/martial-arts-icon.png';
+import travelIcon from './images/travel-icon.png';
 
 const OtherInterests = () => {
   return (
@@ -6,15 +9,15 @@ const OtherInterests = () => {
       <h1 className='other-interests-header'>Other things I do...</h1>
       <div className='other-interests-item-container'>
         <div className='other-interests-item'>
-          <img alt='guitar-icon' src={window.location.origin + '/assets/musician-icon.png'} className='other-interests-image'></img>
+          <img alt='guitar-icon' src={musicianIcon} className='other-interests-image'></img>
           <h3 className='other-interests-item-name'>Music</h3>
         </div>
         <div className='other-interests-item other-interests-item-middle'>
-          <img alt='martial-arts-icon' src={window.location.origin + '/assets/martial-arts-icon.png'} className='other-interests-image '></img>
+          <img alt='martial-arts-icon' src={martialArtsIcon} className='other-interests-image '></img>
           <h3 className='other-interests-item-name'>Martial Arts</h3>
         </div>
         <div className='other-interests-item'>
-          <img alt='travel-icon' src={window.location.origin + '/assets/travel-icon.png'} className='other-interests-image'></img>
+          <img alt='travel-icon' src={travelIcon} className='other-interests-image'></img>
           <h3 className='other-interests-item-name'>Travel</h3>
         </div>
       </div>

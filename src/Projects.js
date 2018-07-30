@@ -1,5 +1,12 @@
 import React from 'react';
 import { Reveal, Icon } from 'semantic-ui-react';
+import computerIcon from './images/computer-icon.jpg';
+import codeBonoMac from './images/code-bono-mac.png';
+import codeBonoMacIcons from './images/code-bono-icons.png';
+import checkItIphone from './images/checkit-iphone.png';
+import checkItIphoneIcons from './images/checkit-icons.png';
+import ddWine from './images/dd-wine.png';
+import ddWineIcons from './images/dd-wine-icons.png';
 
 const Projects = () => {
   return (
@@ -7,7 +14,7 @@ const Projects = () => {
       <div className="projects-header-container">
         <h1 className="projects-header">Projects</h1>
         <img
-          alt='computer-icon' src="https://www.freeiconspng.com/uploads/black-iscreen-computer-icons--free-download-6.jpg"
+          alt='computer-icon' src={computerIcon}
           className="projects-icon">
         </img>
       </div>
@@ -25,12 +32,12 @@ const Projects = () => {
           <Reveal animated='small fade'>
             <Reveal.Content visible>
               <div className='projects-image-container'>
-                <img alt='code bono' src={window.location.origin + '/assets/code-bono-mac.png'} className='projects-image'></img>
+                <img alt='code bono' src={codeBonoMac} className='projects-image'></img>
               </div>
             </Reveal.Content>
             <Reveal.Content hidden>
               <div className='projects-image-icons-container'>
-                <img alt='code bono' src={window.location.origin + '/assets/code-bono-icons.png'} className='projects-image'></img>
+                <img alt='code bono' src={codeBonoMacIcons} className='projects-image'></img>
               </div>
             </Reveal.Content>
           </Reveal>
@@ -39,12 +46,12 @@ const Projects = () => {
           <Reveal animated='small fade'>
             <Reveal.Content visible>
               <div className='projects-image-container'>
-                <img alt='checkit app' src={window.location.origin + '/assets/checkit-iphone.png'} className='projects-image'></img>
+                <img alt='checkit app' src={checkItIphone} className='projects-image'></img>
               </div>
             </Reveal.Content>
             <Reveal.Content hidden>
               <div className='projects-image-icons-container'>
-                <img alt='checkit app' src={window.location.origin + '/assets/checkit-icons.png'} className='projects-image'></img>
+                <img alt='checkit app' src={checkItIphoneIcons} className='projects-image'></img>
               </div>
             </Reveal.Content>
           </Reveal>
@@ -71,12 +78,12 @@ const Projects = () => {
           <Reveal animated='small fade'>
             <Reveal.Content visible>
               <div className='projects-image-container'>
-                <img alt='dd wine & liquor' src={window.location.origin + '/assets/dd-wine.png'} className='projects-image-laptop'></img>
+                <img alt='dd wine & liquor' src={ddWine} className='projects-image-laptop'></img>
               </div>
             </Reveal.Content>
             <Reveal.Content hidden>
               <div className='projects-image-icons-container'>
-                <img alt='dd wine & liquor' src={window.location.origin + '/assets/dd-wine-icons.png'} className='projects-image-laptop'></img>
+                <img alt='dd wine & liquor' src={ddWineIcons} className='projects-image-laptop'></img>
               </div>
             </Reveal.Content>
           </Reveal>
