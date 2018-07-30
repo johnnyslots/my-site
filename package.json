@@ -5,7 +5,7 @@
   "engines": {
     "node": "10.6.0"
   },
-  "homepage": "https://git.heroku.com/yoni-slotwiner-site.git",
+  "homepage": "https://johnnyslots.github.io/my-site",
   "dependencies": {
     "react": "^16.4.1",
     "react-collapsible": "^2.2.0",
@@ -16,6 +16,8 @@
     "semantic-ui-react": "^0.82.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
