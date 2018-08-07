@@ -17,9 +17,9 @@ class App extends Component {
           <ScrollUpButton />
         </div>
         <Intro />
-        <Experience />
-        <Projects />
         <OtherInterests />
+        <Projects />
+        <Experience />
         <Footer />
       </div>
     );

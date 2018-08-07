@@ -105,9 +105,6 @@ h2 {
 
 .landing-container {
   background: linear-gradient(to bottom, #52a7ea , #59b2ea);
-/*  background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/B8FU8DFSipsctoeb/sunrise-over-mountains-nature-background-aerial-video-4k-sunset-sunshine-in-himalayas-nepal-sun-rises-on-clear-sky_rhp1dqgk__F0000.png');
-  background-repeat: no-repeat;
-  background-size: cover;*/
 }
 
 .landing-main-container {
@@ -217,28 +214,37 @@ h2 {
 }
 
 .other-interests-item-container {
-  margin-top: 5%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin: 5% 15% 0 15%;
 
 }
 
-/*.other-interests-item < h3 {
+.other-interests-item {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.hidden-text {
+  display: none;
+}
+
+.other-interests-item:hover .other-interests-item-name {
+  display: none;
+}
+
+.other-interests-item:hover .other-interests-image {
+  margin-bottom: 10%;
+}
+
+.other-interests-item:hover .hidden-text {
   display: inline;
-}*/
-
-
+  font-size: 16px;
+}
 
 .other-interests-image {
   height: 120px;
-}
-
-.other-interests-item-middle {
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
 /***** PROJECTS *****/
@@ -362,6 +368,13 @@ h2 {
   [class*='footer-container'] {padding: 6%; position: static}
 }
 
+@media screen and (max-width: 320px) {
+  .other-interests-item:hover .hidden-text {
+    display: inline;
+    font-size: 10px;
+  }
+}
+
 @media screen and (min-width: 321px) and (max-width: 767px) {
   [class*='ScrollUpButton'] {display: none}
   [class*='nav-container'] {padding: 6%; position: static}
@@ -394,6 +407,13 @@ h2 {
   [class*='other-interests-item-name'] {font-size: 12px; margin-top: 10px}
   [class*='other-interests-item-middle'] {margin-left: 35px; margin-right: 35px}
   [class*='footer-container'] {padding: 6%; position: static}
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .other-interests-item:hover .hidden-text {
+    display: inline;
+    font-size: 10px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1054px) {
