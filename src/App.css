@@ -140,7 +140,6 @@ h2 {
 
 .footer-initials {
   border-top: 2px solid #52a7ea;
-  /*width: 6%;*/
   font-size: 40px;
   font-family: "Shrikhand", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 1%;
@@ -157,8 +156,6 @@ h2 {
   padding: 2% 15% 1% 15%;
   display: flex;
   justify-content: space-between;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
 }
 
